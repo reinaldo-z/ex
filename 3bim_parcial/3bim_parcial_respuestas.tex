@@ -83,26 +83,50 @@ los resultados finales deber\'an estar escritos con tinta.
 Calcula el \'area del tri\'angulo si se tiene que la longitud de su base es
 $b=5$\,cm y la de su altura es $h=4.8$\,cm. (valor: 4 aciertos.)
 
-\begin{figure}[h!]
-        \includegraphics[width=0.32\textwidth]{./pentagono}
+
+\begin{minipage}[h!]{0.5\textwidth}
+    \includegraphics[width=0.6\textwidth]{./pentagono}
     \label{fig:granja}
-\end{figure}
+\end{minipage} 
+\begin{minipage}[h!]{0.5\textwidth}
+\begin{align*}
+A_{\text{tri\'angulo}} =& \frac{bh}{2} = \frac{(5\cm)(4.8\cm)}{2}  \\
+                       =& 12\text{cm}^{2} 
+\end{align*}
+\null
+\par\xdef\tpd{\the\prevdepth}
+\end{minipage}
 
 
 Observando la figura previa date cuenta cuantos tri\'angulos similares al
 sombreado conforman al pent\'agono. Bas\'andote en ello y en tu resultado
 anterior calcula el area del pent\'agono completo. (valor: 4 aciertos.)
 
-\vspace{3cm}
+\begin{align*}
+A_{\text{pent\'agobno}} =& (5)(A_{\text{tri\'angulo}}) = (5)(12\text{cm}^{2}) \\
+                        =& 60\text{cm}^{2} 
+\end{align*}
 
 En la siguiente figura se muestra un rect\'angulo. Se tiene que la longitud de
 su base es $b=\frac{11}{4}$\,km y su altura es $h=\frac{6}{5}$\,km. Usando
 fracciones calcula su per\'imetro. (valor: 4 aciertos.)
 
-\begin{figure}[h!]
-        \includegraphics[width=0.32\textwidth]{./rectangulo}
+\begin{minipage}[h!]{0.5\textwidth}
+    \includegraphics[width=0.6\textwidth]{./rectangulo}
     \label{fig:rectangulo}
-\end{figure}
+\end{minipage} \hspace{-2cm}
+\begin{minipage}[h!]{0.5\textwidth}
+\begin{align*}
+P_{\text{rect\'angulo}} =& b + b + h + h = (2)(b+h) \\
+            =& 2 \left( \frac{11}{4}\text{Km} + \frac{6}{5}\text{Km} \right) \\
+            =& \left( \frac{2}{1} \right) \left( \frac{79}{20}\text{Km} \right)
+            = \frac{158}{20}\text{Km} \\
+            =& \frac{79}{10}\text{Km}
+            = 7 \frac{9}{10}\text{Km} \\
+\end{align*}
+\null
+\par\xdef\tpd{\the\prevdepth}
+\end{minipage}
 
 \newpage
 
@@ -110,7 +134,14 @@ Partiendo de los datos de la figura anterior convierte los valores de la base y
 la altura a decimales. Usando estos nuevos datos calcula su \'area. (valor: 4
 aciertos.)
 
-\vspace{5cm}
+\begin{align*}
+    b=\frac{11}{4}\text{Km} = 2.75\text{Km}; \ \ 
+    h=\frac{6}{5}\text{Km}=1.2\text{Km} \text{\hspace{2.5cm}}  
+    A_{\text{rect\'angulo}} =& bh = (2.75\text{Km})(1.2\text{Km})  \\
+    =& 3.3\text{Km}^{2}
+\end{align*}
+
+\vspace{2cm}
 
 \section{Proporcionalidad y regla de tres}
 
@@ -122,20 +153,61 @@ Como promoci\'on en un supermercado se tiene que el costo de medio kilogramo de
 manzana es \$9.50. ?`Cu\'anto se deber\'a pagar por cuatro kilogramos de
 manzana? (valor: 2 aciertos)
 
-\vspace{5cm}
+\begin{minipage}[h!]{0.3\textwidth}
+    \begin{eqnarray*}
+        \frac{1}{2}\text{\,Kg  \'o 0.5\,Kg} &\hspace{1cm}& \$9.50\\
+        4\text{\,Kg} &\hspace{1cm}& \text{x}=\$76.00
+    \end{eqnarray*}
+\end{minipage}\hspace{5cm}
+\begin{minipage}[h!]{0.3\textwidth}
+    \begin{equation*}
+        \$9.50 \times 8 = \$76.00
+    \end{equation*}
+\end{minipage}
+
+\vspace{3cm}
 
 Dise\~nado para alcanzar una gran velocidad,  el auto deportivo
 \textit{Lamborghini Veneno} alcanza una velocidad m\'axima de 221 millas por
 hora. Sabiendo que una milla equivale a 1.609 kil\'ometros, determina dicha
 velocida en kil\'ometros por hora. (valor: 3 aciertos)
 
-\vspace{5cm}
+\begin{minipage}[h!]{0.3\textwidth}
+    \begin{eqnarray*}
+        221\text{\,mi/h} &\hspace{1cm}& \text{x}= 355.589\text{\,Km/h} \\
+        1\text{\,mi/h} &\hspace{1cm}& 1.609\text{\,Km/h} 
+    \end{eqnarray*}
+\end{minipage}\hspace{5cm}
+\begin{minipage}[h!]{0.3\textwidth}
+    \begin{equation*}
+        221\text{\,mi/h} \times 1.609 = 355.589\text{\,Km/h}
+    \end{equation*}
+\end{minipage}
+
+\vspace{3cm}
 
 Para cierta venta especial en una tienda departamental se tienen descuentos del
 50\% + 10\%. Aprovechando esa oportunidad el profesor de matem\'aticas decide
 comprar una playera tipo polo. Si el precio original de la playera era de
 \$899.00,  determina el costo final que el profesor pagar\'a por dicho
 art\'iculo. (valor: 5 aciertos)
+
+\begin{minipage}[t]{0.5\textwidth}
+    \begin{eqnarray*}
+        \$899.00&   &100\% \\
+        x=\$449.50&  &50\% \\ \\
+    \end{eqnarray*}
+    899 - 449.50 = \$449.50
+\end{minipage}%
+\begin{minipage}[t]{0.5\textwidth}
+    \begin{eqnarray*}
+        \$449.50&   &100\% \\
+        x=\$44.95&  &10\% \\ \\
+    \end{eqnarray*}
+    449.50 - 44.95 = \$404.55
+\end{minipage}
+
+\vspace{3cm}
 
 \newpage
 
@@ -151,10 +223,10 @@ algebraicas en sus respectivos componentes. (valor: 4 aciertos.)
 \begin{tabular}{|c|c|c|c|}
 \hline
 Expresi\'on & Coeficiente & Literal(es) & Exponente(s)  \\ \hline 
-$3x^2$ &&&\\ \hline
-$b^2c^4x^6$ &&&\\ \hline
-$17ax^2y^3$ &&&\\ \hline
-$d^2we^3x$ &&&\\ \hline
+$3x^2$ &3 &$x$ &2\\ \hline
+$b^2c^4x^6$ &1 &$b,c,x$   &$2,4,6$\\ \hline
+$17ax^2y^3$ &17 &$a,x,y$  &$1,2,3$\\ \hline
+$d^2we^3x$  &1 &$d,w,e,x$ &$2,1,3,1$\\ \hline
 \end{tabular}
 \egroup
 \end{center}
@@ -163,31 +235,31 @@ Haz la reducci\'on de los t\'erminos semejante de la forma como se trabaj\'o en
 clase. (valor: 10 aciertos.)
 
 \begin{equation*}
-3m + 20p + 5m - 6p = 
+3m + 20p + 5m - 6p =  8m + 14p
 \end{equation*}
 
 \vspace{4mm}
 
 \begin{equation*}
-5p + m -p +2m + 6p =
+5p + m -p +2m + 6p = 10p + 3m
 \end{equation*}
 
 \vspace{4mm}
 
 \begin{equation*}
-8p + m -5p + 12m + 2p + 2m =
+8p + m -5p + 12m + 2p + 2m = 5p + 15p
 \end{equation*}
 
 \vspace{4mm}
 
 \begin{equation*}
-3x + 4y - x = 
+3x + 4y - x = 2x + 4y
 \end{equation*}
 
 \vspace{4mm}
 
 \begin{equation*}
-20x + 17y - 8x - y -3x =
+20x + 17y - 8x - y -3x = 9x + 16y
 \end{equation*}
 
 \end{document}
