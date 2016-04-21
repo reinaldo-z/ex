@@ -1,0 +1,256 @@
+\newcommand{\seccion}{SECUNDARIA INCORPORADA A LA SEG }
+\newcommand{\descripcion}{Examen Parcial, Cuarto Bimestre}
+\newcommand{\grado}{Primero de secundaria}
+\newcommand{\ciclo}{Ciclo escolar: 2015--2016}
+\newcommand{\papel}{legalpaper} %letter, legalpaper ...
+\newcommand{\fecha}{22 de abril de 2016}
+% \author{Ing. Arturo Canedo \\ M. en C. Reinaldo Zapata}
+\author{M. en C. Reinaldo Zapata}
+
+\documentclass[11pt]{article}
+\usepackage[\papel]{geometry}
+
+\title{\flushleft \seccion \\ \descripcion \\  \grado \\ \ciclo}
+
+\newcommand\BackgroundLogo{
+\put(162,365){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+\includegraphics[width=5cm,height=2.5cm,keepaspectratio]{/Users/reinaldo/Documents/clases/jassa/logo}%
+\vfill
+}}}
+
+
+
+% \title{\seccion \\ \descripcion \\  \grado \\ \ciclo}
+
+% \newcommand\BackgroundLogo{
+% \put(162,435){
+% \parbox[b][\paperheight]{\paperwidth}{%
+% \vfill
+% \centering
+% \includegraphics[width=5cm,height=2.5cm,keepaspectratio]{/Users/reinaldo/Documents/clases/jassa/logo}%
+% \vfill
+% }}}
+
+\hyphenation{con-ti-nua-ción}
+
+\usepackage{enumitem}
+\usepackage[T1]{fontenc} %fuentes
+\usepackage{lmodern} %fuente mejorada
+\usepackage[spanish]{babel}
+\decimalpoint
+\usepackage{fullpage}
+\usepackage{multicol}
+\usepackage{graphicx}
+\usepackage{eso-pic}
+\usepackage{multirow}
+\usepackage{subfigure}
+\usepackage{tikz}
+\usetikzlibrary{shapes.geometric}
+
+
+
+%Modificación del formato de las ecuaciones y el numerado de las mismas
+\usepackage[leqno,fleqn]{amsmath}
+\makeatletter
+  \def\tagform@#1{\maketag@@@{#1\@@italiccorr}}
+\makeatother
+\renewcommand{\theequation}{\fbox{\textbf{\arabic{equation}}}}
+
+
+\begin{document}
+\AddToShipoutPicture*{\BackgroundLogo}
+\ClearShipoutPicture
+\date{\fecha}
+\maketitle
+% \thispagestyle{empty}
+
+
+
+Nombre del alumno:\,\line(1,0){244}\,.\hspace*{.2cm} \hfill Aciertos:
+$\dfrac{\qquad \qquad}{50}$.
+
+\vspace{3mm}
+\indent Primero de secundaria, grupo:\,\line(1,0){35}\,. No. de
+lista:\,\line(1,0){35}\,.
+
+\vspace{5mm}
+
+El prop\'osito de todo examen es poner a prueba los conocimientos de cada alumno
+para calificar as\'i su desempe\~no y aprendizaje. Contesta correctamente, en
+cada secci\'on, tantos reactivos como te sea posible. Todas y cada una de las
+operaciones deber\'as escribirlas en esta hoja donde se imprimi\'o el examen y
+los resultados finales deber\'an estar escritos con tinta.
+
+\section{N\'umeros con signo}
+
+Escribe los cuatro pasos para hacer sumas y restas de n\'umeros con signo.
+\hfill \textbf{(8 aciertos)}
+
+\begin{enumerate}
+    \item \ \\
+    \item \ \\
+    \item \ \\
+    \item \ \\
+\end{enumerate}
+
+Resuelve las siguientes operaciones de n\'umeros con signo. \hfill \textbf{(10
+aciertos)}
+
+\begin{multicols}{2}
+
+\begin{equation}
+-3 +5 -6 +8 -6 =
+\end{equation}
+
+\vspace{3cm}
+\begin{equation}
+-20 +10 -15 -9 =
+\end{equation}
+
+\vspace{3cm}
+\begin{equation}
+-4.16 +2.5 -3.15 + 0.975 =
+\end{equation}
+
+\vspace{3cm}
+\begin{equation}
+- \frac{2}{5} + \frac{2}{3} + \frac{1}{15} - \frac{1}{2} =
+\end{equation}
+
+\vspace{3cm}
+
+\end{multicols}
+
+\newpage
+
+\setcounter{equation}{0}
+\section{Ecuaciones}
+
+Resuelve las ecuaciones que se plantean a continuaci\'on. \hfill \textbf{(4 aciertos)}
+
+\begin{multicols}{2}
+
+\begin{equation}
+3x + 6 = 12
+\end{equation}
+
+\vspace{3cm}
+\begin{equation}
+9 + \frac{2}{3} x = -\frac{2}{5}
+\end{equation}
+
+\vspace{3cm}
+
+\end{multicols}
+
+\vspace{3.5cm}
+Resuelve planteando la ecuaci\'on correspondiente: si al triple de un n\'umero
+se le agregan 10 da como resultado 20. ?`Cu\'al es ese n\'umero? \hfill
+\textbf{(4 aciertos)}
+
+\vspace{3.5cm}
+
+\section{Probabilidad y estad\'istica}
+En m\'exico hay cerca de 125 millones de habitantes. Acorde a estudios hechos
+por la Secretar\'ia de Econom\'ia acerca de las clases sociales en M\'exico se
+tiene que 7.5 millones de ellos pertenece a la clase \emph{ata}, 42.5 millones a
+la clase \emph{media} y el resto a la clase \emph{baja}. Usando la
+circunferencia que se muestra a continuaci\'on, expresa los porcentajes de los
+datos haciendo una gr\'afica circular. Recuerda colocar los porcentajes sobre la
+gr\'afica. \hfill \textbf{(10 aciertos)}
+
+\vspace{3mm}
+\begin{tikzpicture}[scale=0.85]
+    \draw[line width=0.2mm, black] (0,0) circle (3.9cm);
+    \draw [line width=0.2mm, black ] (0,0) -- (0,3.9) node [right] {};;
+    \draw [line width=0.5mm, black ] (0,-0.2) -- (0,0.2) node [right] {};;
+    \draw [line width=0.5mm, black ] (-0.2,0) -- (0.2,0) node [right] {};;
+
+    \draw[line width=0.2mm, black] (4.5,1.5)  circle (3mm) node [right] {\Large \hspace{6mm}Alta};
+    \draw[line width=0.2mm, black] (4.5,0.0)  circle (3mm) node [right] {\Large \hspace{6mm}Media};
+    \draw[line width=0.2mm, black] (4.5,-1.5) circle (3mm) node [right] {\Large \hspace{6mm}Baja};
+\end{tikzpicture}  
+
+\vspace{3mm}
+El Instituto Nacional de Estad\'iistica y Geograf\'ia (INEGI) obtuvo como
+resultado del censo en el a\~no 2010 que el 48.5\% de los mexicanos son hombres
+mientras que el restante son mujeres. Acorde a estos datos etiqueta de forma
+correcta la gr\'afica que se muestra a continuaci\'on colocando en los
+c\'irculos peque\~nos las palabras \emph{hombres} y \emph{mujeres} y
+poniendo adem\'as los porcentajes correspondientes sobre la gr\'afica. \hspace{10cm} \textbf{(4 aciertos)}
+
+
+\vspace{3mm}
+\begin{tikzpicture}[scale=0.63]
+  \fill[fill=gray]
+    (0,0) -- (0cm,3cm) arc (90:-84:3cm);
+    \draw[line width=0.2mm, black] (0,0) circle (3cm);
+    \draw[line width=0.2mm, black, fill=gray] (4,1.5) circle (3mm);
+    \draw[line width=0.2mm, black] (4,-1.5) circle (3mm);
+\end{tikzpicture}  
+
+\section{Geometr\'ia}
+Haciendo uso de la circunferencia que se muestra a continuaci\'on haz el trazo
+de un pent\'agono regular inscrito. Traza su apotema. 
+
+Asumiendo que su longitud lateral
+es $\ell=5.9$\,cm y la de su apotema $a=4$\,cm, calcula su per\'imetro y su
+\'area. \hfill \textbf{(5 aciertos)}
+
+\vspace{3mm}
+\begin{tikzpicture}[scale=0.85]
+    \draw[line width=0.2mm, black] (0,0) circle (5cm);
+    \draw [line width=0.2mm, black ] (0,-0.2) -- (0,0.2) node [right] {};;
+    \draw [line width=0.2mm, black ] (-0.2,0) -- (0.2,0) node [right] {};;
+\end{tikzpicture}  
+
+\vspace{3mm}
+Escribe el nombre de las siguientes figuras sin faltas de ortograf\'ia. \hfill
+\textbf{(3 aciertos)}
+
+\vspace{3mm}
+\begin{center}
+\begin{tikzpicture}
+\node [draw, thick, minimum size=4cm, regular polygon, regular polygon sides=7]
+at (0,0) { };
+\node [draw, thick, minimum size=4cm, regular polygon, regular polygon sides=5]
+at (5,0) { };
+\node [draw, thick, minimum size=4cm, regular polygon, regular polygon sides=10]
+at (10,0) { };
+
+\draw [line width=0.2mm, black ] (-2,-3) -- (2,-3) node [right] {};;
+\draw [line width=0.2mm, black ] (3,-3) -- (7,-3) node [right] {};;
+\draw [line width=0.2mm, black ] (8,-3) -- (12,-3) node [right] {};;
+\end{tikzpicture}
+\end{center}
+
+\setcounter{equation}{0}
+\vspace{5mm}
+\section{Operaciones b\'asicas}
+Resuelve las siguientes operaciones. \hfill \textbf{(2 aciertos)}
+
+\begin{multicols}{2}
+
+\begin{equation}
+(5.2)(3.1416)
+\end{equation}
+
+\begin{equation}
+7.35 \div 2.4
+\end{equation}
+
+
+\end{multicols}
+
+
+
+\end{document}
+
+
+
+
+
+
